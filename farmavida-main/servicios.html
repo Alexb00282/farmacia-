@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Farmavida</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+     <!-- Navbar fija -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo 2.png" alt="Farmavida Logo" height="80" class="d-inline-block align-text-top ">
+                Farmavida
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="carrito.html" class="btn btn-outline-success position-relative">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-count">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Encabezado de la página -->
+    <div class="container mt-5 pt-4">
+        <div class="row my-5">
+            <div class="col-lg-8 mx-auto text-center">
+                <h1 class="display-5 fw-bold">Nuestros Servicios</h1>
+                <p class="lead">En Farmavida ofrecemos una amplia gama de servicios profesionales para cuidar de tu salud y bienestar.</p>
+            </div>
+        </div>
+        
+        <!-- Servicios principales -->
+        <div class="row g-4 mb-5">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center p-4">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-block mb-3">
+                            <i class="fas fa-truck text-success fa-3x"></i>
+                        </div>
+                        <h3 class="card-title h4">Entrega a Domicilio</h3>
+                        <p class="card-text">Recibe tus medicamentos y productos de farmacia sin salir de casa. Servicio rápido, seguro y con seguimiento en tiempo real.</p>
+                        <ul class="list-unstyled text-start">
+                            <li><i class="fas fa-check text-success me-2"></i> Entrega en menos de 2 horas</li>
+                            <li><i class="fas fa-check text-success me-2"></i> Servicio disponible todos los días</li>
+                            <li><i class="fas fa-check text-success me-2"></i> Envío gratuito en pedidos superiores a 30€</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center p-4">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-block mb-3">
+                            <i class="fas fa-user-md text-success fa-3x"></i>
+                        </div>
+                        <h3 class="card-title h4">Asesoría Farmacéutica</h3>
+                        <p class="card-text">Nuestros farmacéuticos profesionales están disponibles para resolver todas tus dudas sobre medicamentos y tratamientos.</p>
+                        <ul class="list-unstyled text-start">
+                            <li><i class="fas fa-check text-success me-2"></i> Consulta personalizada</li>
+                            <li><i class="fas fa-check text-success me-2"></i> Revisión de medicación</li>
+                            <li><i class="fas fa-check text-success me-2"></i> Seguimiento de tratamientos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center p-4">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-3 d-inline-block mb-3">
+                            <i class="fas fa-heartbeat text-success fa-3x"></i>
+                        </div>
+                        <h3 class="card-title h4">Control de Salud</h3>
+                        <p class="card-text">Servicios básicos de control y seguimiento de parámetros de salud realizados por profesionales cualificados.</p>
+                        <ul class="list-unstyled text-start">
+                            <li><i class="fas fa-check text-success me-2"></i> Medición de presión arterial</li>
+                            <li><i class="fas fa-check text-success me-2"></i> Control de glucosa</li>
+                            <li><i class="fas fa-check text-success me-2"></i> Peso y composición corporal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Servicios adicionales -->
+        <h2 class="text-center mb-4">Servicios Adicionales</h2>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-pills text-success fa-2x mb-3"></i>
+                        <h5 class="card-title">Preparación de SPD</h5>
+                        <p class="card-text">Sistema personalizado de dosificación para facilitar la toma de medicamentos.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-prescription text-success fa-2x mb-3"></i>
+                        <h5 class="card-title">Receta Electrónica</h5>
+                        <p class="card-text">Dispensación de medicamentos con receta electrónica del sistema de salud.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-syringe text-success fa-2x mb-3"></i>
+                        <h5 class="card-title">Vacunación</h5>
+                        <p class="card-text">Servicio de vacunación por personal sanitario cualificado (gripe, viajes, etc.).</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-stethoscope text-success fa-2x mb-3"></i>
+                        <h5 class="card-title">Nutrición y Dietética</h5>
+                        <p class="card-text">Asesoramiento nutricional personalizado para mejorar tu salud y bienestar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Horarios de servicios -->
+        <div class="row mt-5">
+            <div class="col-lg-8 mx-auto">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-success text-white">
+                        <h3 class="h5 mb-0">Horarios de Servicios</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Servicio</th>
+                                        <th>Días</th>
+                                        <th>Horario</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Entrega a Domicilio</td>
+                                        <td>Lunes a Domingo</td>
+                                        <td>9:00 - 21:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Asesoría Farmacéutica</td>
+                                        <td>Lunes a Viernes</td>
+                                        <td>10:00 - 20:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Control de Salud</td>
+                                        <td>Lunes a Viernes</td>
+                                        <td>10:00 - 14:00 y 16:00 - 19:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nutrición y Dietética</td>
+                                        <td>Martes y Jueves</td>
+                                        <td>16:00 - 20:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vacunación</td>
+                                        <td>Miércoles</td>
+                                        <td>10:00 - 13:00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de contacto rápido -->
+    <section class="bg-light py-5 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2>¿Necesitas más información?</h2>
+                    <p class="lead">Nuestro equipo está disponible para resolver todas tus dudas sobre nuestros servicios.</p>
+                    <a href="contacto.html" class="btn btn-success">Contactar ahora</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column flex-md-row gap-3 justify-content-center">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-phone-alt text-success fa-2x me-3"></i>
+                            <div>
+                                <h5 class="mb-0">Llámanos</h5>
+                                <p class="mb-0">900 123 456</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-envelope text-success fa-2x me-3"></i>
+                            <div>
+                                <h5 class="mb-0">Email</h5>
+                                <p class="mb-0">info@farmavida.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Farmavida</h5>
+                    <p>Tu farmacia de confianza, cuidando tu salud desde 1995.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Inicio</a></li>
+                        <li><a href="productos.html" class="text-white">Productos</a></li>
+                        <li><a href="servicios.html" class="text-white">Servicios</a></li>
+                        <li><a href="nosotros.html" class="text-white">Nosotros</a></li>
+                        <li><a href="contacto.html" class="text-white">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Síguenos</h5>
+                    <div class="d-flex gap-3 fs-4">
+                        <a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">© 2023 Farmavida. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <audio id="background-music" loop>
+        <source src="audio/Alan Walker - The Spectre(MP3_160K).mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <script>
+        window.onload = function() {
+            var music = document.getElementById('background-music');
+            music.volume = 0.2;  // Establece el volumen al 50%
+            music.play();  // Inicia la reproducción de la música automáticamente
+        };
+    </script>
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript personalizado -->
+    <script src="js/main.js"></script>
+    <script src="js/carrito.js"></script>
+</body>
+</html>
